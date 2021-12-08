@@ -26,5 +26,5 @@ spec:
     createNamespace: true
   interval: 10m0s
   releaseName: my-nats
-  targetNamespace: dwk-project-app
+  targetNamespace: nats
 
