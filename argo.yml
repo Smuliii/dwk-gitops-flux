@@ -23,11 +23,8 @@ spec:
         name: argo
       version: 2.5.0
   install:
-    crds: Create
     createNamespace: true
   interval: 10m0s
   releaseName: argo-rollouts
   targetNamespace: argo-rollouts
-  upgrade:
-    crds: CreateReplace
 
